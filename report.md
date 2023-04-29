@@ -8,17 +8,25 @@ This analysis was created to leverage an existing dataset in order to predict th
 
 * Machine Learning Model 1: Logistic Regression
   * accuracy: 0.9442676901753825
-  * precision    recall  f1-score   support
-0       1.00      1.00      1.00     18759
-1       0.87      0.89      0.88       625
+
+   *  precision -- recall -- f1-score -- support
+ 
+Healthy:     1.00  ---  1.00 --- 1.00 --- 18759
+
+High-Risk:   0.87 -- 0.89 -- 0.88 -- 625
+
+
 
 
 
 * Machine Learning Model 2: Random Over Sampler
   * accuracy: 0.9959744975744975
-  * precision    recall  f1-score   support
-0       1.00      1.00      1.00     18759
-1       0.87      1.00      0.93       625
+
+  * precision -- recall -- f1-score -- support
+
+Healthy:       1.00  ---  1.00  ---  1.00  ---  18759
+
+High-Risk:       0.87 -- 1.00 -- 0.93 -- 625
 
 ## Summary
 
